@@ -9,7 +9,7 @@ namespace Esendex.SimpleTddExample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi! ...What's your name?");
+            Console.WriteLine("Hi! ...What's your name? ");
             string input = Console.ReadLine();
         }
     }

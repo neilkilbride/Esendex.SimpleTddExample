@@ -11,6 +11,10 @@ namespace Esendex.SimpleTddExample
         {
             Console.WriteLine("Hi! ...What's your name? ");
             string input = Console.ReadLine();
+
+            Console.WriteLine( Greeter.GenerateGreeting(input));
+
+            Console.ReadLine();
         }
     }
 }

@@ -11,8 +11,13 @@ namespace Esendex.SimpleTddExample.Tests
         [Test]
         public void GenerateGreeting_WhenNameAnn_ThenNiceToMeetYouAnn()
         {
-            Assert.That(Greeter.GenereateGreeting("Ann"), Is.EqualTo("Nice to meet you Ann"));
+            Assert.That(Greeter.GenerateGreeting("Ann"), Is.EqualTo("Nice to meet you Ann"));
         }
 
+        [Test]
+        public void GenerateGreeting_WhenNameSam_ThenGoAwaySam()
+        {
+            Assert.That(Greeter.GenerateGreeting("Sam"), Is.EqualTo("Go away Sam"));
+        }
     }
 }

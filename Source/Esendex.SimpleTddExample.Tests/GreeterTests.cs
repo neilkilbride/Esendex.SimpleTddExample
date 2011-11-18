@@ -15,15 +15,10 @@ namespace Esendex.SimpleTddExample.Tests
         }
 
         [Test]
-        public void GenerateGreeting_WhenNameSam_ThenGoAwaySam()
+        public void GenerateGreeting_WhenNameSam_ThenSamIsAwesome()
         {
-            Assert.That(Greeter.GenerateGreeting("Sam"), Is.EqualTo("Go away Sam"));
+            Assert.That(Greeter.GenerateGreeting("Sam"), Is.EqualTo("Sam, you are awesome!"));
         }
 
-        [Test]
-        public void GenerateGreeting_WhenNameNeil_ThenYouAreAwesome()
-        {
-            Assert.That(Greeter.GenerateGreeting("Neil"), Is.EqualTo("Neil, you are awesome!"));
-        }
     }
 }

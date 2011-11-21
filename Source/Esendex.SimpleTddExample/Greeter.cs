@@ -8,6 +8,8 @@ namespace Esendex.SimpleTddExample
         {
             if (name == "Sam")
                 return "Sam, you are awesome!";
+            if (name == "Neil")
+                return "Neil, you are awesome!";
 
             return string.Format("Nice to meet you {0}", name);
         }

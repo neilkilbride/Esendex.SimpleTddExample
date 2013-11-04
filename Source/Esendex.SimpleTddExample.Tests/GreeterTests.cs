@@ -9,9 +9,9 @@ namespace Esendex.SimpleTddExample.Tests
     public class GreeterTests
     {
         [Test]
-        public void WhenNameIsSam_ThenSamIsAwesome()
+        public void WhenNameIsJoe_ThenGreeterSaysHi()
         {
-            Assert.That(Greeter.GenerateGreeting("Sam"), Is.EqualTo("Sam, you are awesome!"));
+            Assert.That(Greeter.GenerateGreeting("Joe"), Is.EqualTo("Hello Joe"));
         }
     }
 }

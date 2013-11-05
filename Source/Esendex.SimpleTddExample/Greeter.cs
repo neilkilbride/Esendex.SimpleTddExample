@@ -6,6 +6,7 @@ namespace Esendex.SimpleTddExample
     {
         public static string GenerateGreeting(string name)
         {
+            // Useless comment
             return string.Format("Hello {0}", name);
         }
     }
